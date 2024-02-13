@@ -1,3 +1,5 @@
+### Part One
+
 1. What is HTTP?
 
 HTTP, short for Hypertext Transfer Protocol, is the protocol used to communicate between a client and a server.
@@ -29,3 +31,10 @@ It is a message using the HTTP protocol that the server sends to the client with
 8. What is an HTTP header? Give a couple examples of request and response headers you have seen.
 
 A header is a group of additional information sent as part of a response, that includes Content Type, date/time, cookies the server wants to send, and any caching information.
+
+### Part Two
+1. setup:  curl -v http://icanhazdadjoke.com
+    command: curl -H "Accept: application/json" "https://icanhazdadjoke.com/search?term=pirate
+2. using: host -t A url
+icanhazdadjoke.com has address 104.21.66.15
+    icanhazdadjoke.com has address 172.67.198.173
